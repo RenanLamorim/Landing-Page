@@ -11,3 +11,19 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
+.minim{
+    height: 900px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+.sess-1{
+    width: 300px;
+}
