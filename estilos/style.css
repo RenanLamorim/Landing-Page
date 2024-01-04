@@ -27,3 +27,13 @@ main{
 .sess-1{
     width: 300px;
 }
+
+.tit{
+    font-size: 2em;
+}
+
+a{
+color: white;
+text-decoration: none;
+padding: 10px;
+}
