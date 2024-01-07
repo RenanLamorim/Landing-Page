@@ -6,6 +6,7 @@ body{
   background-color: #232123 ; 
   color: #ffffff;
   font-family: poppinsregular; 
+  
 }
 
 header{
@@ -43,7 +44,7 @@ main{
 }
 
 .sess-1{
-    width: 500px;
+    width: 650px;
 }
 
 .tit{
@@ -59,8 +60,13 @@ padding: 10px;
 
 .h1-1{
     white-space: nowrap;
-    font-size: 2.1em;
+    font-size: 2.0em;
     color: #00E93F;
+}
+
+.h1-2{
+    font-size: 2.1em;
+    margin-bottom: 60px;
 }
 
 .link-5{
@@ -68,5 +74,32 @@ padding: 10px;
     border-radius: 10px;
     padding: 10px;
 
+}
+
+input{
+    height: 55px;
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    border-radius: 22px;
+    border: none;
+    padding-left: 15px;
+}
+
+.button{
+    width: 50%;
+
+
+}
+
+.sub{
+    color: white;
+    background-color: #00E93F;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.sub:hover{
+    background-color: #03631d;
 }
 
