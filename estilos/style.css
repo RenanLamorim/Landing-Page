@@ -15,6 +15,21 @@ header{
     justify-content: space-between;
 }
 
+header > h1{
+    margin-left:120px ;
+    line-height: 35px;
+}
+
+header > nav{
+    margin-right: 100px;
+    
+}
+
+header > nav > a{
+padding: 30px;
+font-size: 1.2em;
+}
+
 .minim{
     height: 900px;
 
@@ -51,5 +66,7 @@ padding: 10px;
 .link-5{
     border: 2px solid #00E93F;
     border-radius: 10px;
+    padding: 10px;
+
 }
 
