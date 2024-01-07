@@ -35,7 +35,7 @@ font-size: 1.2em;
 }
 
 .minim{
-    height: 790px;
+    height: 800px;
     width: 810px;
     
 
@@ -81,6 +81,11 @@ padding: 10px;
 
 }
 
+.link-5:hover{
+color: #00E93F;
+border: 2px solid white;
+}
+
 input{
     height: 55px;
     width: 65%;
@@ -107,4 +112,9 @@ input{
 .sub:hover{
     background-color: #03631d;
 }
+
+a:hover{
+    color: #00E93F;
+}
+
 
