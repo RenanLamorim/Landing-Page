@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
 @media screen and (max-width:767px){
+
+body{
+    
+    overflow: hidden;
+
+}
 main > .sess-1 > p{
     display: none;
 }
 
 .minim{
-   width: 400px; 
+   width: 500px; 
    height: 400px;
 }
 
@@ -16,7 +22,57 @@ nav{
 
 header{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
+header > h1{
+    margin-left: 0px;
+    font-size: 2.6em;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tit{
+    font-size: 1.4em;
+    margin: none;
+    padding: none;
+
+}
+
+.sess-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+input{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form > input{
+    width: 100vw;
+}
+
+#inome{
+    width: 65vw;
+}
+
+#iemail{
+    width: 65vw;
+}
 
 }
