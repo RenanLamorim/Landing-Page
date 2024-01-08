@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (max-width:767px){
+main > .sess-1 > p{
+    display: none;
+}
+
+.minim{
+   width: 400px; 
+   height: 400px;
+}
+
+nav{
+    display: none;
+}
+
+header{
+    display: flex;
+}
+
+
+}
