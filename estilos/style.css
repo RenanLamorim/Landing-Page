@@ -118,4 +118,13 @@ a:hover{
     color: #00E93F;
 }
 
+.sess-2 > .minim{
+    display: none;
+}
+
+.minim-2{
+    width: 800px;
+    height: 800px;
+}
+
 

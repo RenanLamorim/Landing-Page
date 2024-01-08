@@ -4,7 +4,8 @@
 
 body{
     
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 
 }
 main > .sess-1 > p{
@@ -73,6 +74,14 @@ form > input{
 
 #iemail{
     width: 65vw;
+}
+
+.sess-2 > .minim-2{
+    display: none;
+}
+
+.sess-2 > .minim{
+    display: block;
 }
 
 }
