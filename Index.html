@@ -14,13 +14,13 @@
       
           <h1>Marketing <br> Criativo</h1> 
           
-          <div class="iicon">
-              <span class="material-symbols-outlined">
+          <div onclick="clickMenu()" class="iicon">
+              <span  class="material-symbols-outlined">
                 menu
                 </span>
           </div>
       
-      <nav>
+      <nav id="itens">
         <a href="">Inicio</a>
         <a href="">Serviços</a>
         <a href="">Sobre</a>
@@ -55,5 +55,15 @@
 <img class="minim-2" src="Webinar-bro.png" alt="mulher no computador">
 </section>
     </main>
+    <script>
+      function clickMenu(){
+        if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+        }
+        else{
+            itens.style.display = 'block'
+        }
+      }  
+    </script>
 </body>
 </html>
