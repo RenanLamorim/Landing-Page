@@ -18,8 +18,18 @@ main > .sess-1 > p{
 }
 
 nav{
-    display: none;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+header > nav{
+    margin-right: 0%;
+}
+
+
 
 header{
     display: flex;
